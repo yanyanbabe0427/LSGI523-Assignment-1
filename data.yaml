@@ -1,0 +1,13 @@
+train: /root/ultralytics-YOLO26/road-damage/train/images
+val: /root/ultralytics-YOLO26/road-damage/valid/images
+test: /root/ultralytics-YOLO26/road-damage/test/images
+
+nc: 2
+names: ['crack', 'pothole']
+
+roboflow:
+  workspace: wongmumet
+  project: road-damage-jaxrv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wongmumet/road-damage-jaxrv/dataset/1
